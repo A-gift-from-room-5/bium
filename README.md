@@ -231,7 +231,7 @@ npm start
 
 #### 프로젝트 개발 기간
 
-2023.07.17 ~ 2023.08.18
+`2023.07.17` ~ `2023.08.18` (7주)
 
 #### 프로젝트 산출물
 
@@ -241,7 +241,7 @@ npm start
 
 ##### 2. ERD
 
-<img title="" src="README-assets/Bium ERD.png" alt="" width="" height="">
+<img title="" src="README-assets/bium_ERD.png" alt="" width="" height="">
 
 ##### 3. API 설계서
 
@@ -257,30 +257,36 @@ npm start
 
 ##### 6. Git Flow 브랜치 전략
 
-<img title="git graph" src="README-assets/Git Graph.gif" alt="" width="" height="" />
+| Git Graph | Contributor Statistics |
+| --- | --- |
+| <img title="git graph" src="README-assets/Git Graph.gif" alt="" width="" height="" /> | <img title="contributor statistics" src="README-assets/contributor_statistics.png" alt="" width="" height="" /> |
+
 
 - Git Flow 사용 브랜치
-
   - develop: 개발
   - feature: 기능
   - master: 배포
   - hotfix: 에러 수정
 
 - Git Flow 진행 방식
-
   1. feature 브랜치가 완성되면 develop 브랜치로 pull request
   2. Front-End 팀장, Back-End 팀장이 변경 사항을 체크하여 merge
   3. 큰 기능이 완료될 때 마다 develop 브랜치를 master 브랜치로 병합하여 배포
 
 - feature 브랜치 이름 명명 규칙
-
   - [ FE / BE ] / [ 기능 이름 ]
-    <br> ex) FE/login
-    <br> ex) BE/login
+    <br> ex) `FE/login`
+    <br> ex) `BE/login`
 
 ##### 7. Jira
 
-<img title="git graph" src="README-assets/jira_번다운 차트.PNG" alt="" width="" height="" />
+| 3주차 | 4주차 | 5주차 |
+| ----- | ----- | ----- |
+| ![jira_번다운차트_3주차](./README-assets/jira_번다운차트_2주차.png) | ![jira_번다운차트_4주차](./README-assets/jira_번다운차트_3주차.png) | ![jira_번다운차트_5주차](./README-assets/jira_번다운차트_4주차.png) |
+
+| 6주차 | 7주차 |
+| ----- | ----- |
+| ![jira_번다운차트_6주차](./README-assets/jira_번다운차트_5주차.png) | ![jira_번다운차트_7주차](./README-assets/jira_번다운차트_6주차.png) |
 
 - 목적: 협업, 일정, 업무 관리
 - 방법
@@ -293,8 +299,8 @@ npm start
 
 ## 개발팀 소개
 
-|                                                                 손효민                                                                 |                                                                김동현                                                                 |                                                               연주원                                                                |                                                               이지혁                                                                |                                                                 이정찬                                                                 |                                                               최지수                                                               |
-| :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
-|                                <img title="" src="README-assets/SonHyoMin00.png" alt="Git" width="188">                                |                                <img title="" src="README-assets/DongHyun22.png" alt="Git" width="188">                                |                                <img title="" src="README-assets/joo1yeon.jpg" alt="Git" width="188">                                |                                <img title="" src="README-assets/illu1996.png" alt="Git" width="188">                                |                                <img title="" src="README-assets/jeongchanim.png" alt="Git" width="188">                                |                                <img title="" src="README-assets/cjjss11.png" alt="Git" width="188">                                |
-| [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/sonhyomin00) | [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/DongHyun22) | [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/joo1yeon) | [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/illu1996) | [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/jeongchanim) | [<img title="" src="README-assets/c39c28c470f7abfb058794ccc718bdc7c7a020a1.png" alt="Git" width="75">](https://github.com/cjjss11) |
-|                                                          **팀장**, BE-Leader                                                           |                                                                  BE                                                                   |                                                                 BE                                                                  |                                                              FE-Leader                                                              |                                                                   FE                                                                   |                                                                 FE                                                                 |
+| 손효민 | 김동현 | 연주원 | 이지혁 | 이정찬 | 최지수 |
+| --- | --- | --- | --- | --- | --- |
+| <img title="" src="https://avatars.githubusercontent.com/u/68097374?v=4" alt="Git" width="188"> | <img title="" src="https://avatars.githubusercontent.com/u/79788971?v=4" alt="Git" width="188"> | <img title="" src="https://avatars.githubusercontent.com/u/50977497?v=4" alt="Git" width="188"> | <img title="" src="https://avatars.githubusercontent.com/u/122504259?v=4" alt="Git" width="188"> | <img title="" src="https://avatars.githubusercontent.com/u/117694504?v=4" alt="Git" width="188"> | <img title="" src="https://avatars.githubusercontent.com/u/122518199?v=4" alt="Git" width="188"> |
+| [sonhyomin00](https://github.com/sonhyomin00) | [DongHyun22](https://github.com/DongHyun22) | [joo1yeon](https://github.com/joo1yeon) | [illu1996](https://github.com/illu1996) | [jeongchanim](https://github.com/jeongchanim) | [cjjss11](https://github.com/cjjss11) |
+| 👑 **팀장**<br> BE-Leader<br> INFRA | BE<br> INFRA<br> UCC | BE | FE-Leader | FE | FE |
